@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>World Refugees</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.0/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="chord.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="table-container">
+      </div>
+
+      <div class="svg-container"></div>
+    </div>
+
+    <script id="table-template" type="text/x-handlebars-template">
+      <h2>{{title}}</h2>
+      <table>
+        {{#each data}}
+          <tr>
+            <td>{{name}}</td>
+            <td>{{value}}</td>
+          </tr>
+        {{/each}}
+      </table>
+    </script>
+
+    <script src="chord.js"></script>
+    <script src="tables.js"></script>
+
+    <script>
+    </script>
+  </body>
+</html>
+

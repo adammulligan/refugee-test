@@ -1,0 +1,58 @@
+body {
+  background: black;
+  color: white;
+
+  font-family: 'Slabo 27px', serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.table-container {
+  width: 250px;
+}
+
+table {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+  width: 300px;
+}
+
+.svg-container {
+  width: 800px;
+  height: 700px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+  fill: white;
+  pointer-events: none;
+}
+
+.group path {
+  stroke: #000;
+}
+
+path.chord {
+  stroke-width: .75;
+  fill-opacity: .75;
+}
+
